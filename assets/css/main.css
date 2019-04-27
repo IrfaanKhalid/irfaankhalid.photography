@@ -1388,7 +1388,7 @@ html {
 }
 
 body {
-  background-image: url("images/overlay.png"), url("../../images/bg03.jpg");
+  background-image: url("images/overlay.png"), url("../../images/bg01.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
@@ -2364,4 +2364,10 @@ body.is-preload #wrapper {
     padding-left: 0.5em;
     margin-left: 0.5em;
   }
+}
+
+#home,
+#services,
+#contact {
+  text-align: center;
 }
